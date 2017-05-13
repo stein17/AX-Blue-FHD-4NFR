@@ -472,7 +472,7 @@
       <convert type="EventName">Name</convert>
     </widget>
     <widget name="list" position="30,130" size="1162,820" serviceItemHeight="60" serviceNumberFont="Regular;34" serviceInfoFont="Regular;34" serviceNameFont="Regular;34" zPosition="1" foregroundColor="white" foregroundColorSelected="white" foregroundColorServiceNotAvail="dark" colorServiceDescription="cyan" colorServiceDescriptionSelected="foregroundClock" backgroundColor="black" backgroundColorSelected="trbluelabel" foregroundColorEventSelected="blue" foregroundColorMarkedSelected="redtransparent" colorEventProgressbarBorder="grey" colorEventProgressbarBorderSelected="white" scrollbarMode="showOnDemand" picServiceEventProgressbar="AX_Blue_FHD_4NFR/icons/progressblue.png" transparent="1" />
-    <widget source="ServiceEvent" render="BluePrimeTime" position="1249,913" size="648,45" font="Regular;29" zPosition="2" backgroundColor="background" foregroundColor="white" noWrap="1" transparent="1" />
+    <widget source="ServiceEvent" render="AXBlueuePrimeTime" position="1249,913" size="648,45" font="Regular;29" zPosition="2" backgroundColor="background" foregroundColor="white" noWrap="1" transparent="1" />
     <widget source="ServiceEvent" render="Label" position="1413,1015" size="180,40" font="Regular;30" backgroundColor="background" foregroundColor="white" transparent="1" halign="right" valign="center">
       <convert type="EventTime">Remaining</convert>
       <convert type="RemainingToText">InMinutes</convert>
@@ -1651,13 +1651,13 @@ progressbarHeight="12" />
     <widget source="Event" render="Label" position="30,130" size="1325,46" font="Regular;36" backgroundColor="background20" foregroundColor="white" transparent="0">
       <convert type="EventName">Name</convert>
     </widget>
-    <widget source="Service" render="BLXPicon" position="1370,210" size="220,132" transparent="1" zPosition="2" alphatest="blend">
+    <widget source="Service" render="AXBlueXPicon" position="1370,210" size="220,132" transparent="1" zPosition="2" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
-    <widget source="session.CurrentService" render="BLRunningText" options="movetype=running,startpoint=0,direction=left,steptime=80,repeat=5,startdelay=5000,always=0" position="1367,130" size="520,45" zPosition="4" font="Regular;34" halign="center" valign="center" noWrap="1" backgroundColor="black" foregroundColor="bluetitle" transparent="1">
+    <widget source="session.CurrentService" render="AXBlueRunningText" options="movetype=running,startpoint=0,direction=left,steptime=80,repeat=5,startdelay=5000,always=0" position="1367,130" size="520,45" zPosition="4" font="Regular;34" halign="center" valign="center" noWrap="1" backgroundColor="black" foregroundColor="bluetitle" transparent="1">
       <convert type="ServiceName">Name</convert>
     </widget>
-    <widget source="Event" render="BLRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=8000,steptime=80,wrap=1,always=0,repeat=2,oneshot=1" position="30,181" size="1325,213" font="Regular;32" halign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="2">
+    <widget source="Event" render="AXBlueRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=8000,steptime=80,wrap=1,always=0,repeat=2,oneshot=1" position="30,181" size="1325,213" font="Regular;32" halign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="2">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
     <eLabel position="30,181" size="1325,213" foregroundColor="trbluelabel" zPosition="0" transparent="0" />
@@ -1715,7 +1715,7 @@ progressbarHeight="12" />
     <widget source="session.CurrentService" render="Label" position="1390,120" size="489,45" zPosition="4" font="Regular;27" halign="center" valign="top" noWrap="1" backgroundColor="transparent" foregroundColor="white" borderColor="black" borderWidth="1" transparent="1">
       <convert type="ServiceName">Name</convert>
     </widget>
-    <widget source="Event" render="BLRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=8000,steptime=80,wrap=1,always=0,repeat=2,oneshot=1" position="30,210" size="1325,213" font="Regular;32" halign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="2">
+    <widget source="Event" render="AXBlueRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=8000,steptime=80,wrap=1,always=0,repeat=2,oneshot=1" position="30,210" size="1325,213" font="Regular;32" halign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="2">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
     <widget source="Event" render="Label" position="30,170" size="120,38" font="Regular;29" halign="right" backgroundColor="background20" foregroundColor="bernstein" transparent="1" valign="center">
