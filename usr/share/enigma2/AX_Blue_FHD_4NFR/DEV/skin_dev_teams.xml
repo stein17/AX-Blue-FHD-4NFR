@@ -70,7 +70,6 @@
     <eLabel text="https://github.com/oe-alliance" position="1284,775" size="570,45" font="Regular;30" backgroundColor="black" foregroundColor="white" halign="center" transparent="1" zPosition="1" />
     <ePixmap position="1378,260" size="384,384" zPosition="10" pixmap="AX_Blue_FHD_4NFR/setup/menu_information_device.png" transparent="1" alphatest="blend" />
   </screen>
-
   <!-- ATV DeviceBrowser FHD  -->
   <screen name="DeviceBrowser" position="0,0" size="1920,1080" title="Please select target medium" flags="wfNoBorder" backgroundColor="transparent">
     <widget source="global.CurrentTime" render="Label" position="508,30" size="600,40" font="Regular; 32" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
@@ -91,56 +90,56 @@
     <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_exit.png" position="1123,1011" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
     <ePixmap position="915,676" size="256,256" zPosition="2" pixmap="AX_Blue_FHD_4NFR/icons/menu_information_about.png" transparent="1" alphatest="blend" />
   </screen>
-      <!-- ATV FlashOnline FHD -->
-<screen name="FlashOnline" position="0,0" size="1920,1080" title="Flash Online" flags="wfNoBorder" backgroundColor="transparent">
-<ePixmap pixmap="AX_Blue_FHD_4NFR/menu/menu_duo_blue.png" position="0,0" zPosition="-20" size="1920,1080" />
-<eLabel position="943,122" size="311,524" backgroundColor="trbluelabel" transparent="0" zPosition="-12" />
-<widget source="global.CurrentTime" render="Label" position="508,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
-<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
-</widget>
-<widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
-<widget name="info-local" position="50,150" zPosition="1" size="840,180" font="Regular;32" halign="left" valign="top" foregroundColor="bluetitle" backgroundColor="dark" transparent="1" />
-<widget name="info-online" position="50,725" zPosition="1" size="840,180" font="Regular;32" halign="left" valign="top" foregroundColor="green" backgroundColor="dark" transparent="1" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
-<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget source="key_blue" render="Label" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_ok.png" position="1310,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_exit.png" position="1382,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
-<ePixmap position="971,676" size="256,256" zPosition="2" pixmap="AX_Blue_FHD_4NFR/icons/FlashOnline.png" transparent="1" />
-<eLabel name="" position="1300,1000" size="153,70" />
-</screen>
+  <!-- ATV FlashOnline FHD -->
+  <screen name="FlashOnline" position="0,0" size="1920,1080" title="Flash Online" flags="wfNoBorder" backgroundColor="transparent">
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/menu/menu_duo_blue.png" position="0,0" zPosition="-20" size="1920,1080" />
+    <eLabel position="944,122" size="311,524" backgroundColor="trbluelabel" transparent="0" zPosition="-12" />
+    <widget source="global.CurrentTime" render="Label" position="508,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+      <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+    </widget>
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
+    <widget name="info-local" position="50,150" zPosition="1" size="840,180" font="Regular;32" halign="left" valign="top" foregroundColor="bluetitle" backgroundColor="dark" transparent="1" />
+    <widget name="info-online" position="50,725" zPosition="1" size="840,180" font="Regular;32" halign="left" valign="top" foregroundColor="green" backgroundColor="dark" transparent="1" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
+    <widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_blue" render="Label" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_ok.png" position="1310,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_exit.png" position="1382,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+    <ePixmap position="971,676" size="256,256" zPosition="2" pixmap="AX_Blue_FHD_4NFR/icons/FlashOnline.png" transparent="1" />
+    <eLabel name="" position="1300,1000" size="153,70" />
+  </screen>
   <!-- ATV doFlashImage FHD  -->
-<screen name="doFlashImage" position="0,0" size="1920,1080" title="Flash On the fly (select a image)" flags="wfNoBorder" backgroundColor="transparent">
-<widget source="global.CurrentTime" render="Label" position="508,30" size="600,40" font="Regular; 32" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
-<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
-</widget>
-<ePixmap pixmap="AX_Blue_FHD_4NFR/DEV/Logo_OpenATV.png" position="31,124" size="750,125" zPosition="10" transparent="1" alphatest="blend" />
-<widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/menu/menu_duo_blue.png" position="2,0" zPosition="-20" size="1920,1080" />
-<eLabel position="943,122" size="311,524" backgroundColor="trbluelabel" transparent="0" zPosition="-12" />
-<widget name="imageList" position="39,363" zPosition="1" size="850,580" backgroundColor="background" foregroundColor="white" backgroundColorSelected="trbluelabel" foregroundColorSelected="white" itemHeight="45" font="Regular;30" scrollbarMode="showOnDemand" transparent="1" />
-<eLabel text="OPEN SOURCE" position="864,257" size="470,83" font="Replacement; 32" backgroundColor="background" foregroundColor="white" halign="center" transparent="1" zPosition="1" />
-<eLabel text="https://github.com/openatv" position="40,248" size="570,45" font="Replacement; 30" backgroundColor="background" foregroundColor="white" halign="left" transparent="1" zPosition="1" />
-<eLabel text="https://github.com/oe-alliance" position="40,297" size="570,45" font="Replacement; 30" backgroundColor="background" foregroundColor="white" halign="left" transparent="1" zPosition="1" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/menu/line890.png" position="26,341" size="890,2" alphatest="blend" zPosition="3" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
-<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget source="key_blue" render="Label" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_ok.png" position="1310,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_exit.png" position="1382,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
-<eLabel name="" position="1300,1000" size="153,70" />
-<ePixmap position="973,676" size="256,256" zPosition="2" pixmap="AX_Blue_FHD_4NFR/icons/menu_information_about.png" transparent="1" alphatest="blend" />
-</screen>
+  <screen name="doFlashImage" position="0,0" size="1920,1080" title="Flash On the fly (select a image)" flags="wfNoBorder" backgroundColor="transparent">
+    <widget source="global.CurrentTime" render="Label" position="508,30" size="600,40" font="Regular; 32" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+      <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+    </widget>
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/DEV/Logo_OpenATV.png" position="31,124" size="750,125" zPosition="10" transparent="1" alphatest="blend" />
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/menu/menu_duo_blue.png" position="2,0" zPosition="-20" size="1920,1080" />
+    <eLabel position="943,122" size="311,524" backgroundColor="trbluelabel" transparent="0" zPosition="-12" />
+    <widget name="imageList" position="39,363" zPosition="1" size="850,580" backgroundColor="background" foregroundColor="white" backgroundColorSelected="trbluelabel" foregroundColorSelected="white" itemHeight="45" font="Regular;30" scrollbarMode="showOnDemand" transparent="1" />
+    <eLabel text="OPEN SOURCE" position="864,257" size="470,83" font="Replacement; 32" backgroundColor="background" foregroundColor="white" halign="center" transparent="1" zPosition="1" />
+    <eLabel text="https://github.com/openatv" position="40,248" size="570,45" font="Replacement; 30" backgroundColor="background" foregroundColor="white" halign="left" transparent="1" zPosition="1" />
+    <eLabel text="https://github.com/oe-alliance" position="40,297" size="570,45" font="Replacement; 30" backgroundColor="background" foregroundColor="white" halign="left" transparent="1" zPosition="1" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/menu/line890.png" position="26,341" size="890,2" alphatest="blend" zPosition="3" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
+    <widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_blue" render="Label" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_ok.png" position="1310,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_exit.png" position="1382,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+    <eLabel name="" position="1300,1000" size="153,70" />
+    <ePixmap position="973,676" size="256,256" zPosition="2" pixmap="AX_Blue_FHD_4NFR/icons/menu_information_about.png" transparent="1" alphatest="blend" />
+  </screen>
   <!-- ATV Devices -->
   <!-- ATV supportchannel_ListChannel_ListScreen -->
   <!-- ATV supportchannel_YTChannel -->
@@ -231,7 +230,7 @@
     <ePixmap position="971,676" size="256,256" zPosition="2" pixmap="AX_Blue_FHD_4NFR/icons/console.png" transparent="1" />
   </screen>
   <!-- ATV Softwarepanel FHD  -->
-<screen name="SoftwarePanel" position="0,0" size="1920,1080" title="SoftwarePanel" flags="wfNoBorder" backgroundColor="transparent">
+  <screen name="SoftwarePanel" position="0,0" size="1920,1080" title="SoftwarePanel" flags="wfNoBorder" backgroundColor="transparent">
     <widget source="global.CurrentTime" render="Label" position="1188,30" size="600,40" font="Regular; 32" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Format:%A, %d.%m.%Y   %H:%M</convert>
     </widget>
@@ -1288,27 +1287,26 @@
   </screen>
   <!-- ATV RestartNetwork FHD  -->
   <screen name="RestartNetwork" position="center,center" size="1020,210" title="Restart Network Adapter" backgroundColor="background" flags="wfNoBorder">
-    <ePixmap name="InfoPixmap" pixmap="AX_Blue_FHD_4NFR/icons/input_info.png" position="12,12" size="80,80" alphatest="blend" />
+    <ePixmap name="InfoPixmap" pixmap="AX_Blue_FHD_4NFR/skin_default/icons/input_info.png" position="12,12" size="80,80" alphatest="blend" />
     <eLabel position="101,12" size="908,75" backgroundColor="background" zPosition="-1" />
     <widget source="Title" render="Label" position="101,12" foregroundColor="cyan" size="908,75" noWrap="1" valign="bottom" font="Regular;51" backgroundColor="background" transparent="1" />
     <widget name="label" position="8,120" size="1005,75" font="Regular;35" valign="center" halign="center" backgroundColor="background" foregroundColor="white" zPosition="2" />
   </screen>
   <!-- ATV installedPlugins FHD  -->
   <screen name="installedPlugins" position="center,center" size="1020,210" title="Install Plugins" backgroundColor="background" flags="wfNoBorder">
-    <ePixmap name="InfoPixmap" pixmap="AX_Blue_FHD_4NFR/icons/input_info.png" position="12,12" size="80,80" alphatest="blend" />
+    <ePixmap name="InfoPixmap" pixmap="AX_Blue_FHD_4NFR/skin_default/icons/input_info.png" position="12,12" size="80,80" alphatest="blend" />
     <eLabel position="101,12" size="908,75" backgroundColor="background" zPosition="-1" />
     <widget source="Title" render="Label" position="101,12" foregroundColor="cyan" size="908,75" noWrap="1" valign="bottom" font="Regular;51" backgroundColor="background" transparent="1" zPosition="2" />
     <widget name="label" position="8,120" size="1005,75" font="Regular;35" valign="center" halign="center" backgroundColor="background" foregroundColor="white" />
   </screen>
   <!-- ATV RestoreMyMetrixHD FHD  -->
   <screen name="RestoreMyMetrixHD" position="center,center" size="1020,210" title="Restore MetrixHD Settings" flags="wfNoBorder" backgroundColor="background">
-    <ePixmap name="InfoPixmap" pixmap="AX_Blue_FHD_4NFR/icons/input_info.png" position="12,12" size="80,80" alphatest="blend" />
+    <ePixmap name="InfoPixmap" pixmap="AX_Blue_FHD_4NFR/icons/skin_default/input_info.png" position="12,12" size="80,80" alphatest="blend" />
     <widget source="Title" render="Label" position="101,12" foregroundColor="cyan" size="908,75" noWrap="1" valign="bottom" font="Regular;51" backgroundColor="background" transparent="1" />
     <eLabel name="line1" position="0,104" size="1020,2" backgroundColor="grey" zPosition="1" />
     <eLabel position="101,12" size="908,75" backgroundColor="background" zPosition="-1" />
     <widget name="label" position="8,120" size="1005,75" font="Regular;33" valign="center" halign="center" backgroundColor="background" foregroundColor="white" />
   </screen>
-
   <!--######################################### -->
   <!-- NFR_DEV_TEAM_Screens_FHD  -->
   <!--######################################### -->
@@ -1340,31 +1338,31 @@
     <widget name="buttongreen" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
   </screen>
   <!-- NFR About FHD  -->
-<screen name="About" position="0,0" size="1920,1080" title="Image Information" flags="wfNoBorder" backgroundColor="transparent">
-<widget source="global.CurrentTime" render="Label" position="1188,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
-<convert type="ClockToText">Format:%A, %d.%m.%Y   %H:%M</convert>
-</widget>
-<ePixmap pixmap="AX_Blue_FHD_4NFR/menu/Chanel.png" position="0,0" zPosition="-20" size="1920,1080" />
-<widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 42" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
-<widget name="AboutScrollLabel" position="30,339" size="1165,615" transparent="0" zPosition="1" font="Regular;27" />
-<ePixmap position="23,123" size="1180,210" zPosition="10" pixmap="AX_Blue_FHD_4NFR/DEV/NFR_Logo.png" transparent="1" alphatest="blend" />
-<ePixmap position="1265,580" size="613,344" zPosition="10" pixmap="AX_Blue_FHD_4NFR/DEV/AX_Blue_logo.png" transparent="1" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
-<widget name="key_red" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget name="key_green" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget name="key_yellow" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget name="key_blue" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<eLabel text="Close" position="65,1015" size="240,40" noWrap="1" zPosition="-1" valign="center" font="Regular;30" halign="left" backgroundColor="black" foregroundColor="white" transparent="1" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_info.png" position="1252,1011" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_exit.png" position="1323,1011" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
-<eLabel name="" position="1265,580" size="613,343" backgroundColor="blue" foregroundColor="blue" transparent="0" zPosition="1" alphatest="blend" />
-<eLabel text=" Support: https://www.axforum.de/ " position="1407,932" size="350,25" zPosition="1" font="Regular; 19" halign="left" foregroundColor="blue" backgroundColor="background" transparent="1" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/menu/line1200.png" position="23,335" size="1180,2" zPosition="2" alphatest="blend" />
-<ePixmap position="1249,110" size="646,447" zPosition="10" pixmap="AX_Blue_FHD_4NFR/DEV/AX_Info.png" transparent="1" alphatest="blend" />
-</screen>
+  <screen name="About" position="0,0" size="1920,1080" title="Image Information" flags="wfNoBorder" backgroundColor="transparent">
+    <widget source="global.CurrentTime" render="Label" position="1188,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+      <convert type="ClockToText">Format:%A, %d.%m.%Y   %H:%M</convert>
+    </widget>
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/menu/Chanel.png" position="0,0" zPosition="-20" size="1920,1080" />
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 42" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
+    <widget name="AboutScrollLabel" position="30,339" size="1165,615" transparent="0" zPosition="1" font="Regular;27" />
+    <ePixmap position="23,123" size="1180,210" zPosition="10" pixmap="AX_Blue_FHD_4NFR/DEV/NFR_Logo.png" transparent="1" alphatest="blend" />
+    <ePixmap position="1265,580" size="613,344" zPosition="10" pixmap="AX_Blue_FHD_4NFR/DEV/AX_Blue_logo.png" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
+    <widget name="key_red" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget name="key_green" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget name="key_yellow" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget name="key_blue" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <eLabel text="Close" position="65,1015" size="240,40" noWrap="1" zPosition="-1" valign="center" font="Regular;30" halign="left" backgroundColor="black" foregroundColor="white" transparent="1" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_info.png" position="1252,1011" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_exit.png" position="1323,1011" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+    <eLabel name="" position="1265,580" size="613,343" backgroundColor="blue" foregroundColor="blue" transparent="0" zPosition="1" alphatest="blend" />
+    <eLabel text=" Support: https://www.axforum.de/ " position="1407,932" size="350,25" zPosition="1" font="Regular; 19" halign="left" foregroundColor="blue" backgroundColor="background" transparent="1" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/menu/line1200.png" position="23,335" size="1180,2" zPosition="2" alphatest="blend" />
+    <ePixmap position="1249,110" size="646,447" zPosition="10" pixmap="AX_Blue_FHD_4NFR/DEV/AX_Info.png" transparent="1" alphatest="blend" />
+  </screen>
   <!-- NFR Devices FHD  -->
   <screen name="Devices" position="0,0" size="1920,1080" title="SystemInfo" flags="wfNoBorder" backgroundColor="transparent">
     <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
@@ -1447,7 +1445,7 @@
     <widget name="lab1" zPosition="2" position="70,213" size="675,60" font="Regular;33" backgroundColor="black" foregroundColor="white" halign="center" transparent="1" />
   </screen>
   <!-- NFR Softwarepanel FHD  -->
-<screen name="SoftwarePanel" position="0,0" size="1920,1080" title="SoftwarePanel" flags="wfNoBorder" backgroundColor="transparent">
+  <screen name="SoftwarePanel" position="0,0" size="1920,1080" title="SoftwarePanel" flags="wfNoBorder" backgroundColor="transparent">
     <widget source="global.CurrentTime" render="Label" position="1188,30" size="600,40" font="Regular; 32" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Format:%A, %d.%m.%Y   %H:%M</convert>
     </widget>
@@ -1854,7 +1852,6 @@
     <widget name="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
     <widget name="key_blue" render="Label" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
   </screen>
-
   <!-- NFR E2log FHD  -->
   <screen name="E2log" position="0,0" size="1920,1080" title="E2log erstellen" flags="wfNoBorder" backgroundColor="transparent">
     <widget name="config" position="30,130" size="875,820" backgroundColor="background" foregroundColor="white" backgroundColorSelected="trbluelabel" foregroundColorSelected="white" itemHeight="45" font="Regular;30" scrollbarMode="showOnDemand" transparent="1" />
@@ -2060,46 +2057,46 @@
     <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_help.png" position="995,1011" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
   </screen>
   <!-- NFR Disk Speed FHD -->
-<screen name="Disk_Speed" position="0,0" size="1920,1080" backgroundColor="transparent" title="Disk Speed Test">
-  <widget name="label1" position="30,131" size="875,80" font="Regular;30" transparent="1" foregroundColor="cyan" halign="left" backgroundColor="background" />
-  <widget name="label2" position="30,264" size="875,180" font="Regular;30" transparent="1" foregroundColor="cyan" halign="left" backgroundColor="background" />
-  <widget name="config" position="30,596" font="Regular;30" size="875,350" itemHeight="45" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="background" transparent="1" />
-  <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
-  <ePixmap pixmap="AX_Blue_FHD_4NFR/menu/menu_duo_blue.png" position="0,0" zPosition="-20" size="1920,1080" />
-  <eLabel position="943,122" size="311,524" backgroundColor="trbluelabel" transparent="0" zPosition="-12" />
-  <widget source="global.CurrentTime" render="Label" position="508,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
-    <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
-  </widget>
-  <ePixmap position="971,676" size="256,256" pixmap="AX_Blue_FHD_4NFR/icons/menu_epg_refresh.png" />
-  <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
-  <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
-  <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
-  <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
-  <widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-  <widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-  <widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-  <widget source="key_blue" render="Label" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-</screen>
+  <screen name="Disk_Speed" position="0,0" size="1920,1080" backgroundColor="transparent" title="Disk Speed Test">
+    <widget name="label1" position="30,131" size="875,80" font="Regular;30" transparent="1" foregroundColor="cyan" halign="left" backgroundColor="background" />
+    <widget name="label2" position="30,264" size="875,180" font="Regular;30" transparent="1" foregroundColor="cyan" halign="left" backgroundColor="background" />
+    <widget name="config" position="30,596" font="Regular;30" size="875,350" itemHeight="45" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="background" transparent="1" />
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/menu/menu_duo_blue.png" position="0,0" zPosition="-20" size="1920,1080" />
+    <eLabel position="943,122" size="311,524" backgroundColor="trbluelabel" transparent="0" zPosition="-12" />
+    <widget source="global.CurrentTime" render="Label" position="508,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+      <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+    </widget>
+    <ePixmap position="971,676" size="256,256" pixmap="AX_Blue_FHD_4NFR/icons/menu_epg_refresh.png" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
+    <widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_blue" render="Label" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+  </screen>
   <!-- NFR Disk Test FHD -->
-<screen name="Disk_Test" position="0,0" size="1920,1080" backgroundColor="transparent" title="Disk Speed Test">
-  <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
-  <ePixmap pixmap="AX_Blue_FHD_4NFR/menu/menu_duo_blue.png" position="0,0" zPosition="-20" size="1920,1080" />
-  <eLabel position="943,122" size="311,524" backgroundColor="trbluelabel" transparent="0" zPosition="-12" />
-  <widget source="global.CurrentTime" render="Label" position="508,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
-    <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
-  </widget>
-  <ePixmap position="971,676" size="256,256" pixmap="AX_Blue_FHD_4NFR/icons/menu_epg_refresh.png" />
-  <widget name="label1" position="30,163" size="875,80" halign="center" itemHeight="35" font="Regular;32" foregroundColor="white" backgroundColor="dark" enableWrapAround="1" transparent="1" />
-  <widget name="label2" position="30,274" size="875,80" halign="center" itemHeight="35" font="Regular;30" foregroundColor="lightblue" backgroundColor="background" enableWrapAround="1" transparent="1" />
-  <eLabel name="spaceused" text=" 1 SD" position="41,452" size="100,40" font="Regular; 24" halign="left" backgroundColor="dark" transparent="1" zPosition="5" />
-  <eLabel name="spaceused1" text=" 1 HD" position="159,453" size="100,40" font="Regular; 24" halign="left" backgroundColor="dark" transparent="1" zPosition="5" />
-  <eLabel name="spaceused2" text=" 2 HD" position="281,453" size="100,40" font="Regular; 24" halign="left" backgroundColor="dark" transparent="1" zPosition="5" />
-  <widget name="spaceused" position="30,520" size="875,60" backgroundColor="background" zPosition="3" font="Regular; 26" />
-  <eLabel name="spaceused3" text=" More then 2 HD" position="30,641" size="875,60" font="Regular; 26" halign="left" backgroundColor="background" transparent="1" zPosition="5" />
-  <ePixmap pixmap="skin_default/disk_speed1.png" position="34,593" size="875,40" alphatest="on" />
-  <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
-  <widget name="key_red" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-</screen>
+  <screen name="Disk_Test" position="0,0" size="1920,1080" backgroundColor="transparent" title="Disk Speed Test">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/menu/menu_duo_blue.png" position="0,0" zPosition="-20" size="1920,1080" />
+    <eLabel position="943,122" size="311,524" backgroundColor="trbluelabel" transparent="0" zPosition="-12" />
+    <widget source="global.CurrentTime" render="Label" position="508,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+      <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+    </widget>
+    <ePixmap position="971,676" size="256,256" pixmap="AX_Blue_FHD_4NFR/icons/menu_epg_refresh.png" />
+    <widget name="label1" position="30,163" size="875,80" halign="center" itemHeight="35" font="Regular;32" foregroundColor="white" backgroundColor="dark" enableWrapAround="1" transparent="1" />
+    <widget name="label2" position="30,274" size="875,80" halign="center" itemHeight="35" font="Regular;30" foregroundColor="lightblue" backgroundColor="background" enableWrapAround="1" transparent="1" />
+    <eLabel name="spaceused" text=" 1 SD" position="41,452" size="100,40" font="Regular; 24" halign="left" backgroundColor="dark" transparent="1" zPosition="5" />
+    <eLabel name="spaceused1" text=" 1 HD" position="159,453" size="100,40" font="Regular; 24" halign="left" backgroundColor="dark" transparent="1" zPosition="5" />
+    <eLabel name="spaceused2" text=" 2 HD" position="281,453" size="100,40" font="Regular; 24" halign="left" backgroundColor="dark" transparent="1" zPosition="5" />
+    <widget name="spaceused" position="30,520" size="875,60" backgroundColor="background" zPosition="3" font="Regular; 26" />
+    <eLabel name="spaceused3" text=" More then 2 HD" position="30,641" size="875,60" font="Regular; 26" halign="left" backgroundColor="background" transparent="1" zPosition="5" />
+    <ePixmap pixmap="skin_default/disk_speed1.png" position="34,593" size="875,40" alphatest="on" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+    <widget name="key_red" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+  </screen>
   <!-- NFR HarddiskWait FHD  -->
   <screen name="HarddiskWait" position="0,0" size="1920,1080" flags="wfNoBorder" title="Harddisk Wait" backgroundColor="transparent">
     <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
@@ -2567,22 +2564,24 @@
     <widget name="filedata" position="30,130" size="875,800" itemHeight="40" />
   </screen>
   <!--  NFR Skin Manager FHD  -->
-<screen backgroundColor="transparent" flags="wfNoBorder" name="NfrHD_Config" position="0,0" size="1920,1080" title="NfrHD Setup">
+<screen backgroundColor="transparent" flags="wfNoBorder" name="NfrHD_Config" position="0,0" size="1280,1080" title="NfrHD_Config">
   <ePixmap pixmap="AX_Blue_FHD_4NFR/menu/menu_duo_blue.png" position="0,0" zPosition="-20" size="1920,1080" />
   <eLabel position="943,122" size="311,524" backgroundColor="trbluelabel" transparent="0" zPosition="-12" />
   <widget source="global.CurrentTime" render="Label" position="508,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
     <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
   </widget>
- <eLabel text="/ Speichern" position="380,1000" size="160,70" font="Regular; 27" halign="center" backgroundColor="black" transparent="1" valign="center" />
-<eLabel text="Gelbe Taste Drücken, um die Skinparts auszuwählen" position="74,905" size="820,30" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" valign="center" foregroundColor="cyan" />
+  <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_blue.png" position="47,424" size="35,35" alphatest="blend" />
+  <eLabel text="Help, Skin Einstellungen (Wetter)" position="92,423" size="620,40" font="Regular; 30" halign="left" backgroundColor="black" transparent="1" valign="center" foregroundColor="cyan1" />
+  <eLabel text="/ Speichern" position="374,1000" size="160,70" font="Regular; 27" halign="center" backgroundColor="black" transparent="1" valign="center" />
+  <eLabel text="Gelbe Taste Drücken, um die Skinparts auszuwählen" position="92,359" size="820,40" font="Regular; 30" halign="left" backgroundColor="black" transparent="1" valign="center" foregroundColor="cyan1" />
   <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
-  <ePixmap position="971,676" size="256,256" zPosition="2" pixmap="AX_Blue_FHD_4NFR/icons/net.png" transparent="1" />
-  <widget name="config" position="33,130" size="875,740" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" scrollbarWidth="10" enableWrapAround="1" backgroundColor="dark" transparent="1" />
+  <ePixmap position="971,676" size="256,256" zPosition="2" pixmap="AX_Blue_FHD_4NFR/icons/menu_extended_display_selection.png" transparent="1" />
+  <widget name="config" position="33,230" size="875,45" font="Regular; 36" itemHeight="45" enableWrapAround="1" backgroundColor="dark" transparent="1" />
   <widget name="Picture" position="934,433" size="1,1" alphatest="on" />
   <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
   <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_green.png" position="280,1018" size="35,35" alphatest="blend" />
   <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_yellow.png" position="555,1018" size="35,35" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_yellow.png" position="34,902" size="35,35" alphatest="blend" />
+  <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_yellow.png" position="47,362" size="35,35" alphatest="blend" />
   <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_blue.png" position="1007,1018" size="35,35" alphatest="blend" />
   <widget name="key_red" position="67,1000" size="200,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
   <widget name="key_green" position="324,1000" size="100,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
@@ -2590,35 +2589,44 @@
   <widget name="key_blue" position="1055,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
 </screen>
   <!--  NFR Screens FHD  -->
-<screen backgroundColor="transparent" flags="wfNoBorder" name="NfrHDScreens" position="0,0" size="1920,1080" title="NfrHD Setup">
+<screen backgroundColor="transparent" flags="wfNoBorder" name="NfrHDScreens" position="0,0" size="1920,1080" title="NfrHDScreens">
   <ePixmap pixmap="AX_Blue_FHD_4NFR/menu/Chanel.png" position="0,0" zPosition="-20" size="1920,1080" />
-  
   <widget source="global.CurrentTime" render="Label" position="508,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
     <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
   </widget>
   <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
-  <ePixmap position="1383,539" size="384,384" zPosition="2" pixmap="AX_Blue_FHD_4NFR/setup/menu_osd_menu_user_interface.png" alphatest="blend" transparent="1" />
-  <widget source="menu" render="Listbox" position="58,135" size="1100,810" scrollbarMode="showOnDemand" scrollbarWidth="6" enableWrapAround="1" transparent="1">
-  <convert type="TemplatedMultiContent">
+  <ePixmap position="1386,555" size="384,384" zPosition="2" pixmap="AX_Blue_FHD_4NFR/setup/menu_osd_menu_user_interface.png" alphatest="blend" transparent="1" />
+  <widget source="menu" render="Listbox" position="50,150" size="970,780" scrollbarMode="showOnDemand" scrollbarWidth="6" enableWrapAround="1" transparent="1">
+    <convert type="TemplatedMultiContent">
 				{"template":
 					[
-					MultiContentEntryPixmapAlphaTest(pos = (2, 2), size = (75, 75), png = 2),
-					MultiContentEntryText(pos = (100, 4), size = (850, 50), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1),
+					MultiContentEntryPixmapAlphaTest(pos = (15, 13), size = (40, 40), png = 2),
+					MultiContentEntryText(pos = (70, 0), size = (850, 50), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1),
 					],
 					"fonts": [gFont("Regular", 34),gFont("Regular", 30)],
-					"itemHeight": 85
+					"itemHeight": 50
 				}
 			</convert>
-</widget>
- <eLabel text="Aus/Abwählen" position="370,1000" size="200,70" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" valign="center" foregroundColor="white" />
-  <widget name="Picture" position="1317,192" size="512,288" alphatest="on" />
+  </widget>
+  <eLabel text="Preview" position="1266,129" size="610,70" font="Regular;40" halign="center" valign="center" backgroundColor="bluelabel" transparent="0" zPosition="2" />
+  <eLabel text="/Wählen" position="433,1000" size="220,70" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" valign="center" foregroundColor="white" />
+  <widget name="Picture" position="1265,198" size="612,344" alphatest="on" />
   <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
   <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
-
   <widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget name="key_green" render="Label" position="449,1000" size="120,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-  <widget source="key_green" render="Label" position="909,865" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-  
+  <widget source="key_green" render="Label" position="372,1000" size="80,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+  </screen>
+  <!--  NFR NfrHD_About FHD  -->
+<screen name="NfrHD_About" position="0,0" size="1920,1080" title="NfrHD_About" flags="wfNoBorder" backgroundColor="transparent">
+  <ePixmap pixmap="AX_Blue_FHD_4NFR/menu/menu_transp_black.png" position="0,0" zPosition="-1" size="1920,1080" />
+    <widget source="global.CurrentTime" render="Label" position="508,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+      <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+    </widget>
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
+<eLabel text="Für die Wetteranzeige in der 2.nd Infobar  sind einige Schritte nötig." position="430,426" size="730,90" zPosition="1" font="Regular; 35" halign="left" foregroundColor="blue" backgroundColor="background" transparent="1" />
+<ePixmap position="39,576" size="1200,365" zPosition="10" pixmap="AX_Blue_FHD_4NFR/DEV/NFR_info_skin.png" transparent="1" alphatest="blend" />
+<ePixmap position="158,408" size="220,132" zPosition="10" pixmap="AX_Blue_FHD_4NFR/picon_default.png" transparent="1" alphatest="blend" />
+<ePixmap position="53,129" size="1182,210" zPosition="10" pixmap="AX_Blue_FHD_4NFR/DEV/NFR_Logo.png" transparent="1" alphatest="blend" />
 </screen>
   <!--  NFR Weather Location FHD  -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="WeatherLocationChoiceList" position="0,0" size="1920,1080" title="Location list">
@@ -2720,16 +2728,16 @@
     <widget name="key_yellow" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
     <widget name="key_blue" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
   </screen>
-<!-- NFR FlashOnline FHD  -->
-<screen name="FlashOnline" position="0,0" size="1920,1080" title="Flash On the Fly" flags="wfNoBorder" backgroundColor="transparent">
-<widget source="global.CurrentTime" render="Label" position="508,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
-<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
-</widget>
-<eLabel name="" position="1300,1000" size="153,70" />
-<widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/menu/menu_duo_blue.png" position="0,0" zPosition="-20" size="1920,1080" />
-<eLabel position="943,122" size="311,524" backgroundColor="trbluelabel" transparent="0" zPosition="-12" />
-<widget name="info-local" position="50,150" zPosition="1" size="840,300" font="Regular;32" halign="left" valign="top" foregroundColor="bluetitle" backgroundColor="dark" transparent="1" />
+  <!-- NFR FlashOnline FHD  -->
+  <screen name="FlashOnline" position="0,0" size="1920,1080" title="Flash On the Fly" flags="wfNoBorder" backgroundColor="transparent">
+    <widget source="global.CurrentTime" render="Label" position="508,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+      <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+    </widget>
+    <eLabel name="" position="1300,1000" size="153,70" />
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/menu/menu_duo_blue.png" position="0,0" zPosition="-20" size="1920,1080" />
+    <eLabel position="943,122" size="311,524" backgroundColor="trbluelabel" transparent="0" zPosition="-12" />
+    <widget name="info-local" position="50,150" zPosition="1" size="840,300" font="Regular;32" halign="left" valign="top" foregroundColor="bluetitle" backgroundColor="dark" transparent="1" />
     <widget name="info-online" position="50,715" zPosition="1" size="840,230" font="Regular;32" halign="left" valign="top" foregroundColor="green" backgroundColor="dark" transparent="1" />
     <widget name="info-flash" position="46,467" size="840,230" font="Regular;32" backgroundColor="background" foregroundColor="white" halign="center" transparent="0" zPosition="1" />
     <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
@@ -2740,36 +2748,35 @@
     <widget name="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
     <widget name="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
     <widget name="key_blue" render="Label" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_ok.png" position="1310,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_exit.png" position="1382,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
-<ePixmap position="971,676" size="256,256" zPosition="2" pixmap="AX_Blue_FHD_4NFR/icons/menu_mainmenu_infopanel.png" transparent="1" />
-</screen>
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_ok.png" position="1310,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_exit.png" position="1382,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+    <ePixmap position="971,676" size="256,256" zPosition="2" pixmap="AX_Blue_FHD_4NFR/icons/menu_mainmenu_infopanel.png" transparent="1" />
+  </screen>
   <!-- NFR FlashOnline FHD  -->
-<screen name="doFlashImage" position="0,0" size="1920,1080" title="Flash On the fly (select a image)" flags="wfNoBorder" backgroundColor="transparent">
-<widget source="global.CurrentTime" render="Label" position="508,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
-<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
-</widget>
-<eLabel text="http://www.nachtfalke.biz" position="27,315" size="900,60" font="Replacement; 40" backgroundColor="background" foregroundColor="darkgrey" halign="left" transparent="1" zPosition="12" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/menu/line890.png" position="25,368" size="890,2" alphatest="blend" zPosition="3" />
-  <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
-  <ePixmap pixmap="AX_Blue_FHD_4NFR/menu/menu_duo_blue.png" position="0,0" zPosition="-20" size="1920,1080" />
-  <eLabel position="943,122" size="311,524" backgroundColor="trbluelabel" transparent="0" zPosition="-12" />
-  <widget name="imageList" position="29,382" zPosition="1" size="875,565" backgroundColor="background" foregroundColor="white" backgroundColorSelected="trbluelabel" foregroundColorSelected="white" itemHeight="45" font="Regular;30" scrollbarMode="showOnDemand" transparent="1" />
-  <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
-  <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
-  <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
-  <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
-  <widget name="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-  <widget name="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-  <widget name="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-  <widget name="key_blue" render="Label" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_ok.png" position="1310,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_exit.png" position="1382,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
-<eLabel name="" position="1300,1000" size="153,70" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/DEV/NFR_Logo.png" position="13,109" size="900,210" zPosition="10" transparent="1" alphatest="blend" />
-  <ePixmap position="971,676" size="256,256" zPosition="2" pixmap="AX_Blue_FHD_4NFR/icons/menu_mainmenu_infopanel.png" transparent="1" />
-</screen>
-
+  <screen name="doFlashImage" position="0,0" size="1920,1080" title="Flash On the fly (select a image)" flags="wfNoBorder" backgroundColor="transparent">
+    <widget source="global.CurrentTime" render="Label" position="508,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+      <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+    </widget>
+    <eLabel text="http://www.nachtfalke.biz" position="27,315" size="900,60" font="Replacement; 40" backgroundColor="background" foregroundColor="darkgrey" halign="left" transparent="1" zPosition="12" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/menu/line890.png" position="25,368" size="890,2" alphatest="blend" zPosition="3" />
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/menu/menu_duo_blue.png" position="0,0" zPosition="-20" size="1920,1080" />
+    <eLabel position="943,122" size="311,524" backgroundColor="trbluelabel" transparent="0" zPosition="-12" />
+    <widget name="imageList" position="29,382" zPosition="1" size="875,565" backgroundColor="background" foregroundColor="white" backgroundColorSelected="trbluelabel" foregroundColorSelected="white" itemHeight="45" font="Regular;30" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
+    <widget name="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget name="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget name="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget name="key_blue" render="Label" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_ok.png" position="1310,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_exit.png" position="1382,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+    <eLabel name="" position="1300,1000" size="153,70" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/DEV/NFR_Logo.png" position="13,109" size="900,210" zPosition="10" transparent="1" alphatest="blend" />
+    <ePixmap position="971,676" size="256,256" zPosition="2" pixmap="AX_Blue_FHD_4NFR/icons/menu_mainmenu_infopanel.png" transparent="1" />
+  </screen>
   <!-- NFR ChoiceBox FHD  -->
   <screen name="ChoiceBox" position="0,0" size="1962,1080" flags="wfNoBorder" title="Input" backgroundColor="transparent">
     <widget source="global.CurrentTime" render="Label" position="615,28" size="600,40" font="Regular; 30" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
@@ -2785,9 +2792,6 @@
     <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_exit.png" position="1123,1011" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
     <ePixmap position="971,676" size="256,256" zPosition="2" pixmap="AX_Blue_FHD_4NFR/icons/setup.png" transparent="1" />
   </screen>
-
-  
-  
   <!-- NFR ChoiceBox FHD  -->
   <screen name="ChoiceBox" position="0,0" size="1962,1080" flags="wfNoBorder" title="Input" backgroundColor="transparent">
     <widget source="global.CurrentTime" render="Label" position="615,28" size="600,40" font="Regular; 30" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
@@ -2828,28 +2832,27 @@
     <ePixmap position="891,511" size="270,220" zPosition="10" pixmap="AX_Blue_FHD_4NFR/icons/keyboard.png" transparent="1" alphatest="blend" />
   </screen>
   <!-- NFR PluginBrowser FHD  -->
-<screen name="PluginBrowser" position="0,0" size="1920,1080" title="Plugin browser" flags="wfNoBorder" backgroundColor="transparent">
-<widget source="global.CurrentTime" render="Label" position="508,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
-<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
-</widget>
-<eLabel text="Plugin browser" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/menu/menu_duo_blue.png" position="0,0" zPosition="-20" size="1920,1080" />
-<eLabel position="943,122" size="311,524" backgroundColor="trbluelabel" transparent="0" zPosition="-12" />
-<widget name="list" position="30,130" size="875,820" itemHeight="75" font="Regular;30" scrollbarMode="showOnDemand" backgroundColorSelected="trbluelabel" foregroundColorSelected="white" backgroundColor="black" foregroundColor="bluetitle" enableWrapAround="1" transparent="1" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_red.png" position="13,1018" size="35,35" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_green.png" position="270,1018" size="35,35" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_yellow.png" position="582,1018" size="35,35" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_blue.png" position="883,1018" size="35,35" alphatest="blend" />
-
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_menu.png" position="1401,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_exit.png" position="1320,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
-<ePixmap position="971,676" size="256,256" zPosition="2" pixmap="AX_Blue_FHD_4NFR/icons/menu_mainmenu_pluginmanager.png" transparent="1" />
-<eLabel name="background" backgroundColor="background" position="1300,995" size="180,80" />
-<widget name="key_red" position="58,1000" size="200,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget name="key_green" position="315,1000" size="260,70" zPosition="1" valign="center" font="Regular; 30" halign="left" backgroundColor="black" transparent="1" />
-<widget name="key_yellow" position="630,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget name="key_blue" position="930,1000" size="295,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-</screen>
+  <screen name="PluginBrowser" position="0,0" size="1920,1080" title="Plugin browser" flags="wfNoBorder" backgroundColor="transparent">
+    <widget source="global.CurrentTime" render="Label" position="508,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+      <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+    </widget>
+    <eLabel text="Plugin browser" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/menu/menu_duo_blue.png" position="0,0" zPosition="-20" size="1920,1080" />
+    <eLabel position="943,122" size="311,524" backgroundColor="trbluelabel" transparent="0" zPosition="-12" />
+    <widget name="list" position="30,130" size="875,820" itemHeight="75" font="Regular;30" scrollbarMode="showOnDemand" backgroundColorSelected="trbluelabel" foregroundColorSelected="white" backgroundColor="black" foregroundColor="bluetitle" enableWrapAround="1" transparent="1" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_red.png" position="13,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_green.png" position="270,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_yellow.png" position="582,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_blue.png" position="883,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_menu.png" position="1401,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/buttons/key_exit.png" position="1320,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+    <ePixmap position="971,676" size="256,256" zPosition="2" pixmap="AX_Blue_FHD_4NFR/icons/menu_mainmenu_pluginmanager.png" transparent="1" />
+    <eLabel name="background" backgroundColor="background" position="1300,995" size="180,80" />
+    <widget name="key_red" position="58,1000" size="200,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget name="key_green" position="315,1000" size="260,70" zPosition="1" valign="center" font="Regular; 30" halign="left" backgroundColor="black" transparent="1" />
+    <widget name="key_yellow" position="630,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget name="key_blue" position="930,1000" size="295,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+  </screen>
   <!-- NFR PluginInstall FHD  -->
   <screen name="PluginInstall" position="center,center" size="1920,1080" title="Installiere Plugins" flags="wfNoBorder" backgroundColor="transparent">
     <ePixmap pixmap="AX_Blue_FHD_4NFR/menu/Chanel_transp_black.png" position="0,0" zPosition="-20" size="1920,1080" />
@@ -3047,4 +3050,4 @@
     </widget>
     <eLabel text="SysTemp:" position="30,674" size="160,45" font="Regular; 32" halign="left" valign="bottom" backgroundColor="background" noWrap="1" transparent="1" zPosition="2" foregroundColor="orange" />
   </screen>
-    </skin>
+</skin>
