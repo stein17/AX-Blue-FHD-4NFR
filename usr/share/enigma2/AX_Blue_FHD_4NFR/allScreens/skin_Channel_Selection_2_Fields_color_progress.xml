@@ -39,12 +39,17 @@
       <convert type="ValueRange">1,1</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget name="list" position="25,130" size="1190,760" scrollbarMode="showOnDemand" transparent="1" zPosition="1" 
+    <widget name="list" 
+	position="25,130" 
+	size="1190,760" 
+	scrollbarMode="showOnDemand" 
+	transparent="1" 
+	zPosition="1" 
 	serviceItemHeight="60" 
 	serviceNumberFont="Regular;38" 
 	serviceNameFont="Regular;43" 
 	serviceInfoFont="Regular;37" 
-	foregroundColor="foregroundClock" 
+    foregroundColor="foregroundClock" 
 	foregroundColorMarkedSelected="yellow" 
 	foregroundColorSelected="bluetitle" 
 	backgroundColor="black" 
@@ -53,16 +58,11 @@
 	colorServiceDescriptionSelected="white" 
 	colorServiceRecording="red" 
 	foregroundColorServiceNotAvail="dark" 
-	colorEventProgressbar="bluelabel" 
-	colorEventProgressbarBorder="foregroundClock" 
-	colorEventProgressbarBorderSelected="bluetitle" 
-	fieldMargins="15" 
-	nonplayableMargins="15" 
-	itemsDistances="8" 
-	progressBarWidth="80" 
-	progressPercentWidth="90"
-	progressbarHeight="12" />
-    <widget source="ServiceEvent" render="Picon" position="1663,143" size="220,132" zPosition="1" alphatest="blend" transparent="1">
+  picServiceEventProgressbar="AX_Blue_FHD_4NFR/ch_progress.png"
+  colorEventProgressbarBorder="darkgrey" 
+  colorEventProgressbarBorderSelected="darkgrey2" 
+ fieldMargins="15" nonplayableMargins="15" itemsDistances="8" progressBarWidth="80" progressPercentWidth="90" progressbarHeight="12" />
+<widget source="ServiceEvent" render="Picon" position="1663,143" size="220,132" zPosition="1" alphatest="blend" transparent="1">
       <convert type="AXBlueRefString">ServicelistRef</convert>
     </widget>
     <eLabel text="Start Time :" position="1660,285" size="150,30" font="Regular; 24" halign="left" backgroundColor="black" foregroundColor="foregroundClock" transparent="1" zPosition="1" />
@@ -78,7 +78,7 @@
       <convert type="ClockToText">
       </convert>
     </widget>
-    <widget source="ServiceEvent" render="Progress" position="1252,436" pixmap="AX_Blue_FHD_4NFR/p_bar_sel.png" size="644,8" borderWidth="1" borderColor="foregroundClock" zPosition="1">
+    <widget source="ServiceEvent" render="Progress" position="1252,435" pixmap="AX_Blue_FHD_4NFR/p_bar_color2.png" size="640,10" borderWidth="1" borderColor="darkgrey2" zPosition="1">
       <convert type="EventTime">Progress</convert>
     </widget>
     <widget source="ServiceEvent" render="AXEmptyEpg" emptyText="Event data unavailable" position="1252,353" size="645,80" font="Regular;32" foregroundColor="bluetitle" backgroundColor="black" halign="left" valign="center" transparent="1" zPosition="1">
