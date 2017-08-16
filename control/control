@@ -9,4 +9,4 @@ Maintainer: stein17
 Description: Skin Full HD for NFR Images by stein17
 Source: http://www.nachtfalke.biz
 Homepage: https://axforum.de/
-
+Depends: enigma2-plugin-skincomponents-weathercomponent, enigma2-plugin-systemplugins-weathercomponenthandler
