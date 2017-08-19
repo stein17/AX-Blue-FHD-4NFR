@@ -100,14 +100,15 @@
       <convert type="NFRFunktion">Plugins</convert>
     </widget>
     <widget source="ServiceEvent" render="Label" position="466,913" size="320,32" zPosition="4" font="Regular; 27" halign="left" backgroundColor="white" transparent="0" foregroundColor="black">
-      <convert type="NFRFunktion">Plugins1</convert>
-    </widget>
-    <widget source="ServiceEvent" render="Label" position="852,913" size="320,32" zPosition="4" font="Regular; 27" halign="left" backgroundColor="white" transparent="0" foregroundColor="black">
       <convert type="NFRFunktion">Plugins2</convert>
     </widget>
+    <widget source="ServiceEvent" render="Label" position="852,913" size="320,32" zPosition="4" font="Regular; 27" halign="left" backgroundColor="white" transparent="0" foregroundColor="black">
+      <convert type="NFRFunktion">Plugins1</convert>
+    </widget>
     <ePixmap pixmap="AX_Blue_FHD_4NFR/mmp/play.png" position="32,911" size="36,36" alphatest="blend" />
-    <ePixmap pixmap="AX_Blue_FHD_4NFR/mmp/rewind.png" position="804,911" size="36,36" alphatest="blend" />
-    <ePixmap pixmap="AX_Blue_FHD_4NFR/mmp/forward.png" position="418,911" size="36,36" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4NFR/mmp/rewind.png" position="418,911" size="36,36" alphatest="blend" />
+	<ePixmap pixmap="AX_Blue_FHD_4NFR/mmp/forward.png" position="804,911" size="36,36" alphatest="blend" />
+ 
 <eLabel name="NFR" position="77,910" size="326,38" foregroundColor="blue3" backgroundColor="blue3" />
 <eLabel name="NFR" position="463,910" size="326,38" foregroundColor="blue3" backgroundColor="blue3" />
 <eLabel name="NFR" position="849,910" size="326,38" foregroundColor="blue3" backgroundColor="blue3" />
