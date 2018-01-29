@@ -28,15 +28,14 @@
     <font name="Regular" filename="/usr/share/enigma2/AX_Blue_FHD_4NFR/fonts/verdana.ttf" scale="93" />
 	<font filename="/usr/share/enigma2/skin_default/fonts/digi.ttf" name="DIGI" scale="100" />
 	  	<alias name="Body"                      font="Regular" size="32" height="50" />
-		<alias name="TextNormal"                font="Regular" size="32" height="50" />
+		<alias name="TextNormal"                font="Regular" size="30" height="50" />
 		<alias name="ChoiceList"                font="Regular" size="32" height="50" />
-		<alias name="filelist"                  font="Regular" size="32" height="50"/>
-		<alias name="FileList"                  font="Regular" size="32" height="50"/>
-		<alias name="FileListMulti"             font="Regular" size="32" height="50"/>
+		<alias name="FileList"                  font="Regular" size="30" height="50"/>
+		<alias name="FileListMulti"             font="Regular" size="30" height="50"/>
 		<alias name="PluginBrowser0"            font="Regular" size="32" height="76"/>
-		<alias name="PluginBrowser1"            font="Regular" size="24"/>
-		<alias name="ServiceInfo"               font="Regular" size="32" height="45"/>
-		<alias name="SelectionList"             font="Regular" size="32" height="50" />
+		<alias name="PluginBrowser1"            font="Regular" size="22"/>
+		<alias name="ServiceInfo"               font="Regular" size="30" height="45"/>
+		<alias name="SelectionList"             font="Regular" size="28" height="50" />
 		<alias name="PartnerBoxEntryList0"      font="Regular" size="28" height="38"/>
 		<alias name="PartnerBoxEntryList1"      font="Regular" size="28"/>
 		<alias name="PartnerBoxE2TimerMenu0"    font="Regular" size="32" height="114"/>
@@ -46,19 +45,16 @@
 		<alias name="PartnerBoxChannelList0"    font="Regular" size="32" height="114"/>
 		<alias name="PartnerBoxChannelList1"    font="Regular" size="28"/>
 		<alias name="PartnerBoxChannelEPGList0" font="Regular" size="32" height="38"/>
-		<alias name="PiconManagerList"          font="Regular" size="32" height="50"/>
 		<alias name="PartnerBoxChannelEPGList1" font="Regular" size="24"/>
-		<alias name="VirtualKeyboard"           font="Regular" size="34" height="50"/>
-		<alias name="HelpMenuList"              font="Regular" size="30" height="45"/>
+	    <alias name="HelpMenuList"              font="Regular" size="30" height="45"/>
 		<alias name="HelpMenuListExt0"          font="Regular" size="32" height="75"/>
 		<alias name="HelpMenuListExt1"          font="Regular" size="28"/>
-		<alias name="Dreamexplorer"             font="Regular" size="32" height="38"/>
-		<alias name="PlayList"                  font="Regular" size="32" height="50"/>	
-		<alias name="playlist"                  font="Regular" size="32" height="50"/>	
-		<alias name="MenuList"                  font="Regular" size="32" height="50"/>
-		<alias name="RSList"                    font="Regular" size="32" height="50"/>
+		<alias name="Dreamexplorer"             font="Regular" size="28" height="38"/>
+		<alias name="PlayList"                  font="Regular" size="28" height="50"/>	
+		<alias name="MenuList"                  font="Regular" size="28" height="50"/>
+		<alias name="VirtualKeyboard"           font="Regular" size="34" height="45" />
   </fonts>
- <parameters>
+  <parameters>
     <parameter name="ConfigListSeperator" value="580" />
     <parameter name="ChoicelistDash" value="0,3,1000,50" />
     <parameter name="ChoicelistName" value="85,3,1000,50" />
@@ -66,7 +62,7 @@
     <parameter name="FileListName" value="38,4,1000,50" />
     <parameter name="FileListIcon" value="7,4,52,50" />
     <parameter name="FileListMultiName" value="90,3,1000,50" />
-    <parameter name="FileListMultiIcon" value="45, 4, 50, 50" />
+    <parameter name="FileListMultiIcon" value="45, 1, 70, 70" />
     <parameter name="FileListMultiLock" value="2,0,50,50" />
     <parameter name="PluginListFont1" value="Regular;32" />
     <parameter name="PluginListFont2" value="Regular;25" />
@@ -117,6 +113,7 @@
     <parameter name="PicturePlayerThumb" value="30, 285, 45, 300, 30, 25" />
     <parameter name="PlayListName" value="65,2,1000,50" />
     <parameter name="PlayListIcon" value="10,0,50,50" />
+	<parameter name="SelectionListLockOff" value="10, 7, 50, 50" />
   </parameters>
   <!-- Colors FHD -->
   <colors>
@@ -132,13 +129,12 @@
     <color name="blue" value="#000066cc" />
     <color name="blue2" value="#000051c0" />
     <color name="blue3" value="#000069fb" />
-    <color name="lightbluelabel" value="#000040c0" />
-    <color name="darkbluelabel" value="#00002672" />
     <color name="bluelabel" value="#00003399" />
     <color name="bluetitle" value="#0050bbff" />
     <color name="cyan" value="#0000ffff" />
     <color name="cyan1" value="#0000deff" />
     <color name="dark" value="#00303340" />
+    <color name="darkbluelabel" value="#00002672" />
     <color name="darkgrey" value="#00999999" />
     <color name="darkred" value="#00a00000" />
     <color name="extrdarkred" value="#21000000" />
@@ -146,19 +142,22 @@
     <color name="green" value="#0000cc00" />
     <color name="greenlight" value="#00a4c400" />
     <color name="grey" value="#00cccccc" />
-	<color name="grey1" value="#00a6a6a6" />
+    <color name="grey1" value="#00a6a6a6" />
+    <color name="greyblue" value="#00aab2ba" />
     <color name="greytransparent" value="#60cecece" />
     <color name="lightblue" value="#0066ccff" />
+    <color name="lightbluelabel" value="#000040c0" />
     <color name="orange" value="#00ff6600" />
+    <color name="pink" value="#00cd006c" />
     <color name="red" value="#00ff0000" />
     <color name="redtransparent" value="#084c0000" />
+    <color name="rosa" value="#00f2a5bc" />
     <color name="transparent" value="#ffffffff" />
     <color name="transparent2" value="#ff000000" />
     <color name="trbluelabel" value="#20003399" />
     <color name="trlightblue" value="#2066ccff" />
     <color name="white" value="#00ffffff" />
     <color name="yellow" value="#00ffcc00" />
-	  <color name="metrixYellow" value="#00bf9217" />
   </colors>
    <subtitles>
     <sub name="Subtitle_TTX" font="Regular;32" foregroundColor="white" shadowColor="black" shadowOffset="3,3" />
